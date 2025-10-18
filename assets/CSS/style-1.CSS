@@ -1,8 +1,13 @@
-body{
-    /* background-color: black; */
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+  /* background-color: black; */
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.w_100{
-    width: 100% !important;
+.w_100 {
+  width: 100% !important;
+}
+@media (min-width:992px) {
+  .top-navbar {
+    box-shadow: 0 0 50px gray !important;
+  }
 }
