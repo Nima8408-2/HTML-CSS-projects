@@ -29,3 +29,7 @@ body {
 .users_list_item.active , .users_list_item.active .collapsible-header{
   background-color:darkgrey;
 }
+
+table.highlight > tbody > tr:hover {
+  background-color: #90caf9 !important;
+}
