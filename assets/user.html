@@ -1,87 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="materialize/css/materialize.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/util.css">
-    <link rel="stylesheet" href="CSS/style-1.CSS">
-    <title>Project-1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/util.css">
+  <link rel="stylesheet" href="CSS/style-1.CSS">
+  <title>Project-1</title>
 </head>
+
 <body>
-    <!-- top nav-bar -----------START--------- -->
+  <!-- top nav-bar -----------START--------- -->
 
-    <nav class="white z-depth-0">
-        <div class="nav-wrapper">
-          <a href="user.html" class="blue-text darken-3">User Management</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-            <i class="material-icons blue-text darken-3">menu</i></a>
-          <ul class="left hide-on-med-and-down">
-            <li><a href="/assets/index.html" class="blue-text darken-3">Home</a></li>
-            <li><a href="user.html" class="blue-text darken-3 hide">User Management</a></li>
-            <li><a href="https://codeyad.com" class="blue-text darken-3">Codeyad</a></li>
-            <li><a href="https://www.w3schools.com" class="blue-text darken-3">W3schools</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- top nav-bar -----------END--------- -->
-
-
-    <!-- nav bar -----------START--------- -->
-
-      <ul class="sidenav" id="mobile-demo">
-        <li><div class="user-view">
-          <div class="background">
-            <img class="w_100" src="img/background-1.jpg">
-          </div>
-          <a href="#user"><img class="circle" src="img/Lixian2.jpg"></a>
-          <a><span class="white-text name">Nima Teymoury</span></a>
-          <a><span class="white-text email">nimateymoury@gmail.com</span></a>
-        </div></li>
-        <li><a href="https://www.w3schools.com/" target="_blank"><i class="material-icons">link</i>W3schools</a></li>
-        <li><a href="https://codeyad.com" target="_blank"><i class="material-icons">link</i> CodeYad</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="index.html">Home</a></li>
-        <li><a class="waves-effect" href="/assets/user.html">Users</a></li>
+  <nav class="white z-depth-0">
+    <div class="nav-wrapper">
+      <a href="user.html" class="blue-text darken-3">User Management</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons blue-text darken-3">menu</i></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="/assets/index.html" class="blue-text darken-3">Home</a></li>
+        <li><a href="user.html" class="blue-text darken-3 hide">User Management</a></li>
+        <li><a href="https://codeyad.com" class="blue-text darken-3">Codeyad</a></li>
+        <li><a href="https://www.w3schools.com" class="blue-text darken-3">W3schools</a></li>
       </ul>
+    </div>
+  </nav>
 
-    <!-- nav bar -----------END--------- -->  
+  <!-- top nav-bar -----------END--------- -->
 
 
+  <!-- nav bar -----------START--------- -->
 
-    <!-- content section -----------START--------- -->
-
-    <section id="top-actions-section" class="row">
-        <!-- add button ------------ -->
-        <div class="p-l-10 p-r-10 col s12 m4 l3">
-            <button class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full rounded_pill flex-c">
-                <i class="material-icons m-r-5">add</i>
-                add user
-            </button>
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img class="w_100" src="img/background-1.jpg">
         </div>
-        <!-- search section ------------ -->
-        <div class="p-l-10 p-r-10 col s12 m8 l9">
-            <div class="row">
-                <div class="input-field col s12">
-                  <input id="search" type="text" class="validate">
-                  <label for="search">
-                      <i class="material-icons pos-relative top-7">search</i>
-                      search</label>
-            </div>
+        <a href="#user"><img class="circle" src="img/Lixian2.jpg"></a>
+        <a><span class="white-text name">Nima Teymoury</span></a>
+        <a><span class="white-text email">nimateymoury@gmail.com</span></a>
+      </div>
+    </li>
+    <li><a href="https://www.w3schools.com/" target="_blank"><i class="material-icons">link</i>W3schools</a></li>
+    <li><a href="https://codeyad.com" target="_blank"><i class="material-icons">link</i> CodeYad</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="index.html">Home</a></li>
+    <li><a class="waves-effect" href="/assets/user.html">Users</a></li>
+  </ul>
+
+  <!-- nav bar -----------END--------- -->
+
+
+
+  <!-- content section -----------START--------- -->
+
+  <section id="top-actions-section" class="row m-b-0">
+    <!-- add button ------------ -->
+    <div class="p-l-10 p-r-10 col s12 m4 l3">
+      <button class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full rounded_pill flex-c">
+        <i class="material-icons m-r-5">add</i>
+        add user
+      </button>
+    </div>
+    <!-- search section ------------ -->
+    <div class="p-l-10 p-r-10 col s12 m8 l9">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="search" type="text" class="validate">
+          <label for="search">
+            <i class="material-icons pos-relative top-7">search</i>
+            search</label>
         </div>
+      </div>
 
 
-    </section>
+  </section>
 
-    <!-- content section -----------END--------- -->
+  <section class="user_list_section black-text ">
+    <ul class="collapsible">
+      <li class="users_list_item">
+        <div class="collapsible-header">
+          <i class="material-icons blue-text text-darken-3 users_list_arrow_icon trans-0-5">arrow_drop_down</i>
+          Nima Teymoury
+        </div>
+        <div class="collapsible-body">
+          <div>
+            <span class="f-bold">Username :</span>
+            <span>Nima8408</span>
+          </div>
+          <div>
+            <span class="f-bold">Email :</span>
+            <span>nimateymoury@gmail.com</span>
+          </div>
+          <div>
+            <span class="f-bold">Adress :</span>
+            <span>Berlin example street ...</span>
+          </div>
+          <div>
+            <span class="f-bold">Actions :</span>
+            <i class="material-icons red-text m-l-5 m-r-5 pos-relative top-6">delete_forever</i>
+            <i class="material-icons green-text m-l-5 m-r-5 pos-relative top-6">edit</i>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- content section -----------END--------- -->
 
 
-    
-    <script src="materialize/js/materialize.js"></script>
-    <script src="JS/main.js"></script>
+
+  <script src="materialize/js/materialize.js"></script>
+  <script src="JS/app.js"></script>
+  <script src="JS/users.js"></script>
 </body>
+
 </html>

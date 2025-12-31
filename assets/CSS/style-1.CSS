@@ -18,3 +18,14 @@ body {
 }
 
 }
+
+/* .users_list_item .users_list_arrow_icon{
+  transition: all 500ms ease;
+} */
+.users_list_item.active .users_list_arrow_icon{
+  transform: rotate(180deg);
+}
+
+.users_list_item.active , .users_list_item.active .collapsible-header{
+  background-color:darkgrey;
+}
