@@ -32,7 +32,7 @@
   <!-- top nav-bar -----------END--------- -->
 
 
-  <!-- nav bar -----------START--------- -->
+  <!-- side navbar -----------START--------- -->
 
   <ul class="sidenav" id="mobile-demo">
     <li>
@@ -55,35 +55,48 @@
     <li><a class="waves-effect" href="/assets/user.html">Users</a></li>
   </ul>
 
-  <!-- nav bar -----------END--------- -->
+  <!-- sidenav bar -----------END--------- -->
 
 
 
   <!-- content section -----------START--------- -->
 
-  <section id="top-actions-section" class="row m-b-0">
+  <section id="top-actions-section" class="row m-b-0 container">
+
     <!-- add button ------------ -->
-    <div class="p-l-10 p-r-10 col s12 m4 l2">
+
+    <div class="p-l-10 p-r-10 p-t-10 col s12 m3 l2">
       <button class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full rounded_pill flex-c">
         <i class="material-icons m-r-5">add</i>
         add user
       </button>
     </div>
+
     <!-- search section ------------ -->
-    <div class="p-l-10 p-r-10 col s12 m8 l8">
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="search" type="text" class="validate">
-          <label for="search">
-            <i class="material-icons pos-relative top-7">search</i>
-            search</label>
-        </div>
+
+    <div class="row col s12 m9 l8">
+      <div class="input-field col s12">
+        <input id="search" type="text" class="validate">
+        <label for="search">
+          <i class="material-icons pos-relative top-7">search</i>
+          search</label>
       </div>
+    </div>
+
+    <div class=" col l2 hide-on-med-and-down">
+
+    </div>
 
 
   </section>
 
+
+  <!-- Users list -----------START--------- -->
+
   <section class="user_list_section black-text">
+
+    <!-- User list mobile version -----------START--------- -->
+
     <ul class="collapsible hide-on-med-and-up">
       <li class="users_list_item">
         <div class="collapsible-header">
@@ -162,7 +175,12 @@
       </li>
     </ul>
 
-    <div class="hide-on-med-and-down show-on-medium-and-up">
+    <!-- User list mobile version -----------END--------- -->
+
+
+    <!-- User list DESKTOP version -----------START--------- -->
+
+    <div class="hide-on-med-and-down show-on-medium-and-up container">
 
       <table class="striped centered highlight">
         <thead>
@@ -259,7 +277,37 @@
 
     </div>
 
+
+    <div class="pagination_container container p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed left-0 right-0 bottom-0 z-depth-4 rounded_top_30">
+
+
+      <div class="pagination_item_counts flex-l p-l-10 flex-l-m">
+        showing
+        <span class="m-l-5 m-r-5 max-w-50">
+          <input type="number" class="blue-text darken-3 no-border center-align m-b-0" value="10">
+        </span>
+        of
+        <span class="blue-text darken-3 m-l-5 m-r-5">100</span>
+      </div>
+
+
+      <div class="pagination_buttons">
+        <i
+          class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
+        <i
+          class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_right</i>
+      </div>
+
+
+    </div>
+
+
   </section>
+
+  <!-- User list DESKTOP version -----------END--------- -->
+
+
+  <!-- Users list -----------END--------- -->
 
   <!-- content section -----------END--------- -->
 
