@@ -2,9 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   let elems = document.querySelectorAll(".sidenav");
-  let instances = M.Sidenav.init(elems, {
-    edge: "right",
-  });
+  let instances = M.Sidenav.init(elems, {});
 });
 
 // console.log(1)
